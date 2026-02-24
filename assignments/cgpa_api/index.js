@@ -90,7 +90,7 @@ app.get("/students", (req, res) => {
 
 // Return the student with the highest CGPA
 app.get("/students/topper", (req, res) => {
-    if(students === 0 ){
+    if(students.length === 0 ){
         return res.status(404).json("no student found");
     }
 
@@ -100,7 +100,7 @@ app.get("/students/topper", (req, res) => {
 
 //Return average CGPA of all students
 app.get("/students/average", (req, res) => {
-    if(students === 0){
+    if(students.length === 0){
         return req.status(404).json("no student found");
     }
 
@@ -112,7 +112,7 @@ app.get("/students/average", (req, res) => {
 
 // return total number of students
 app.get("/students/count", (req,res) => {
-    if(students === 0){
+    if(students.length === 0){
         return req.status(404).json("no student found");
     }
 
