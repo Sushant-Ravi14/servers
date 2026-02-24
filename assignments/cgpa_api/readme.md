@@ -97,13 +97,16 @@ No database is used. Data is stored in an in-memory JSON array.
 # How To Run Locally
 
 1. Clone Repository: 
-`git clone https://github.com/Sushant-Ravi14/servers/tree/main/assignments/cgpa_api`
+
+```js  git clone https://github.com/Sushant-Ravi14/servers/tree/main/assignments/cgpa_api  ```
 
 2️. Install Dependencies: 
-`npm install`
+
+```js  npm install```
 
 3️. Run Server: 
-`node index.js`
+
+```js  node index.js```
 
 Server runs on: 
 http://localhost:3000
