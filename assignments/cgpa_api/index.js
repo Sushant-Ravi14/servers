@@ -78,6 +78,11 @@ const students = [
   }
 ];
 
+// home route
+app.get("/", (req, res) => {
+  res.send("Server is running ");
+});
+
 // Get all students
 app.get("/students", (req, res) => {
   res.status(200).json(students);
