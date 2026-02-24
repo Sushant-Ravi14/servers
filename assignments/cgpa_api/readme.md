@@ -52,43 +52,45 @@ No database is used. Data is stored in an in-memory JSON array.
 5️. GET `/students/:id`
 
 - Returns student by ID.
-Example:
+
+   Example:
 `/students/3`
 
-If found → 200
+- If found → 200
 
-If not found → 404
+- If not found → 404
 
 6️. GET `/students/branch/:branchName`
 
 - Returns all students from a specific branch.
-Example:
+
+   Example:
 `/students/branch/CSE`
 
-Returns array of students
+- Returns array of students
 
-If none found → returns empty array
+- If none found → returns empty array
 
 ---
 
 # Sample API URLs
 1. All students
-   url: https://student-cgpa-api-sushant.onrender.com/students
+   url:  https://student-cgpa-api-sushant.onrender.com/students
    
 2. Topper student
-   url: https://student-cgpa-api-sushant.onrender.com/students/topper
+   url:  https://student-cgpa-api-sushant.onrender.com/students/topper
    
 3. Average CGPA
-   url: https://student-cgpa-api-sushant.onrender.com/students/average
+   url:  https://student-cgpa-api-sushant.onrender.com/students/average
    
 4. Number of students
-   url: https://student-cgpa-api-sushant.onrender.com/students/count
+   url:  https://student-cgpa-api-sushant.onrender.com/students/count
    
 5. Student by id
-   url: https://student-cgpa-api-sushant.onrender.com/students/6
+   url:  https://student-cgpa-api-sushant.onrender.com/students/6
    
 6. Student by branchName
-   url: https://student-cgpa-api-sushant.onrender.com/students/branch/cse
+   url:  https://student-cgpa-api-sushant.onrender.com/students/branch/cse
 
    ---
    
