@@ -113,7 +113,7 @@ app.get("/students/average", (req, res) => {
 // return total number of students
 app.get("/students/count", (req,res) => {
     if(students.length === 0){
-        return req.status(404).json("no student found");
+        return res.status(404).json("no student found");
     }
 
     const count = students.length;
