@@ -1,4 +1,4 @@
-# 🎓 E-Commerce Product API
+# E-Commerce Product API
 
 E-Commerce Product API (In-Memory REST API using Express.js)
 
@@ -71,7 +71,7 @@ Updates only the price value
 
 ---
 
-# Sample API URLs
+## Sample API URLs
 1. All products
    url:  https://ecom-api-sushant.onrender.com/products
    
@@ -95,7 +95,7 @@ Updates only the price value
    
 ---
    
-# How To Run Locally
+## How To Run Locally
 
 1. Clone Repository: 
 ` git clone https://github.com/Sushant-Ravi14/servers/tree/main/assignments/ecom_api `
@@ -109,7 +109,18 @@ Updates only the price value
 Server runs on: 
 http://localhost:3000
 
-## 🌍 Live Deployment
+---
+
+## Live Deployment
 
 Render Deployment Link:
 https://ecom-api-sushant.onrender.com
+
+---
+
+## Documentation
+
+Postman Documentation link: 
+https://documenter.getpostman.com/view/50841146/2sBXcGFL9w#75dae9bc-e38f-4ca6-87d3-fcac3a0a5d59
+
+---
